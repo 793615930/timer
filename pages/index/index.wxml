@@ -1,0 +1,17 @@
+<view class="title" bindtap="actinSheet">
+    <text class="f-left">{{"<<"}}</text>
+    {{title}}
+    <text class="f-right">>></text>
+</view>
+<view class="time">
+    <view class="big-circle pink1">
+    </view>
+    
+     <view class="big-circle right pink2">
+    </view>
+</view>
+
+<view class="desc">
+  <text> {{desc}}
+  </text>
+</view>

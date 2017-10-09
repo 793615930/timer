@@ -1,0 +1,38 @@
+/* pages/index/index.wxss */
+page{
+  background: #CCFFFF;
+  font-size: "黑体","宋体";
+}
+.title{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #99CCCC;
+  margin-bottom: 10px;
+}
+.f-left{
+  float: left;
+}
+.f-right{
+  float: right;
+}
+.big-circle{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+ 
+}
+.time{
+  height: 180px;
+}
+.right{
+  clip: rect(0,auto,auto,75px);
+}
+.pink1{
+  background: pink;
+}
+.pink2{
+  background: #FF9933;
+}

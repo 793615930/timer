@@ -1,0 +1,30 @@
+/* pages/config/config.wxss */
+page{
+  background: #CCFFFF;
+  color: black;
+  font-family: '黑体'；
+}
+.section-title{
+  width: 100%;
+  background: #FFFFCC;
+  font-size: 20px;
+  height: 80rpx;
+  line-height: 80rpx;
+  box-shadow: 1px 1px 2px #888;
+  padding-left: 10px;
+}
+.pull-right{
+  float: right;
+}
+.section section_gap text{
+    float: left;
+}
+.section_gap{
+  margin-top: 10px;
+}
+.voice{
+  margin-top: 20px;
+}
+label{
+  margin-left: 20px;
+}

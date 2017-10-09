@@ -1,0 +1,80 @@
+<!--pages/config/config.wxml-->
+<view class="container">
+  <view class="section-title">
+    立论阶段 <switch class="pull-right" id="config1" checked bindchange="switchChange"/>
+  </view>
+
+  <view class="section section_gap">
+    <text >时间限制（秒）</text>
+    <view class="body-view">
+      <slider bindchange="sliderChange" id="config1" min="10" max="200" value="{{configs.config1.time}}" show-value/>
+    </view>
+  </view>
+  <view class="voice" >
+    <text>声音提醒</text>
+    <radio-group  bindchange="radioChange" id="config1">
+       <label><radio value="15" checked="true" />提前15秒</label>
+       <label><radio value="10" />提前10秒</label>
+       <label><radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+ 
+  <view class="section-title" >
+    驳论阶段 <switch class="pull-right" id="config2" checked bindchange="switchChange"/>
+  </view>
+
+  <view class="section section_gap" >
+    <text >时间限制（秒）</text>
+    <view class="body-view">
+      <slider bindchange="sliderChange" id="config2" min="10" max="200" value="{{configs.config2.time}}" show-value/>
+    </view>
+  </view>
+  <view class="voice" >
+    <text>声音提醒</text>
+    <radio-group  bindchange="radioChange" id="config2">
+       <label><radio value="15" checked="true" />提前15秒</label>
+       <label><radio value="10" />提前10秒</label>
+       <label><radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+
+
+  <view class="section-title" >
+    质辩阶段 <switch class="pull-right" id="config3" checked bindchange="switchChange"/>
+  </view>
+
+  <view class="section section_gap" >
+    <text >时间限制（秒）</text>
+    <view class="body-view">
+      <slider bindchange="sliderChange" id="config3" min="10" max="200" value="{{configs.config3.time}}" show-value/>
+    </view>
+  </view>
+  <view class="voice" >
+    <text>声音提醒</text>
+    <radio-group  bindchange="radioChange" id="config3">
+       <label><radio value="15" checked="true" />提前15秒</label>
+       <label><radio value="10" />提前10秒</label>
+       <label><radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+
+
+  <view class="section-title" >
+    自由辩论  <switch class="pull-right" id="config4" checked bindchange="switchChange"/>
+  </view>
+
+  <view class="section section_gap" >
+    <text >时间限制（秒）</text>
+    <view class="body-view">
+      <slider bindchange="sliderChange" id="config4" min="10" max="300" value="{{configs.config4.time}}" show-value/>
+    </view>
+  </view>
+  <view class="voice" >
+    <text>声音提醒</text>
+    <radio-group  bindchange="radioChange" id="config4">
+       <label><radio value="15" checked="true" />提前15秒</label>
+       <label><radio value="10" />提前10秒</label>
+       <label><radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+</view>
